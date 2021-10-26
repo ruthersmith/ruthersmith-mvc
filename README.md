@@ -4,6 +4,12 @@ I wanted to know what the process would be like to create a php framework from s
 It turned out, Getting a basic framework was simpler than I originally imagine.
 This is the result.
 
+<strong>Important!!!</strong>
+In order for this to work properly for you,
+you will need to go into the config and change the constant to match your environment
+Specifically your database environment, site name and base url
+also you nee change the RewriteBase in the public/.htaccess to reflect the location of the pucblic folder
+
 The entry point into the application would be under public/index.php
 This requires the boostrap.php file
 And initialize the app like "$app = new Core"

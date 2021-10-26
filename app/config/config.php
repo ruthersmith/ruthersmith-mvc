@@ -14,13 +14,14 @@ define('APP_ROUTE', dirname(dirname(__FILE__)));
 /*
  * URL route is used to create url because it is the base url from the server pov
  */
-define('URL_ROUTE', 'http://localhost/Projects/Self/learning/udemy/object-oriented-php-mvc/ruthersmith-mvc');
+define('URL_ROUTE', '__YOUR_URL_ROUTE___');
 
 define('SITE_NAME', 'ruthersmith-mvc');
 
 // Database Parameters
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'test');
-define('DB_RDBMS', 'mysql');
+define('DB_USER', '__YOUR_USER');
+define('DB_PASS', '__YOUR_PASS__');
+define('DB_NAME', '__YOUR_DB_NAME__');
+# ONLY TESTED WITH mysql as of now
+define('DB_RDBMS', '_WHICH_RDBMS_ARE YOU USING');
